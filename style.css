@@ -1,0 +1,35 @@
+body{
+    background-color: #50d8d7;
+background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+}
+h1{
+    color: white;
+    background-color: cadetblue;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+canvas{
+    margin-top: 100px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {       
+    0%{box-shadow: 2px 2px 38px white;}
+    25%{box-shadow:  2px 2px 38px blue;}
+    40%{box-shadow:  2px 2px 38px red;}
+    55%{box-shadow:  2px 2px 38px purple;}
+    70%{box-shadow:  2px 2px 38px yellowgreen;}
+    85%{box-shadow:  2px 2px 38px greenyellow;}
+    90%{box-shadow:  2px 2px 38px royalblue;}
+    100%{box-shadow:  2px 2px 38px chartreuse;}
+}
